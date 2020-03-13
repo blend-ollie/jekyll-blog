@@ -23,7 +23,7 @@ So I created a HTML5 app and once completed, I used Cordova to compile it to bot
 
 ### How to install Cordova
 
-There are plenty of tutorials on how to install Cordova, the best one being on the actual Cordova site ([Create your first Cordova app][cordova-create-app]). But to give you a brief overview, here's how to quickly create a Cordova app.
+There are plenty of tutorials on how to install Cordova, the best one being on the actual Cordova site ([Create your first Cordova app][cordova-create-app]). But to give you a brief overview, here's how to quickly create a Cordova app:
 
 #### 1. Install Node.js
 Download the latest version of Node.js [here][node-install]
@@ -68,6 +68,8 @@ Or you can build to a specific platform by running the following:
 {% highlight console %}
 $ cordova build ios
 {% endhighlight %}
+
+You'll need to run this command each time you want to compile your codebase to your platforms.
 
 
 [cordova-create-app]: https://cordova.apache.org/docs/en/latest/guide/cli/index.html
